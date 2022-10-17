@@ -1,0 +1,16 @@
+Ejercicio 18) 5) En la rama master, solamente hay un commit porque al ejecutar el comando git reset --hard ...
+lo que estamos haciendo es volver al commit que consideramos oportuno, borrando todos los demás a la vez.
+Básicamente borra todos los cambios en el directorio donde se está trabajando. Resetea las entradas indexadas al estado específico del commit.
+
+6) En el branch 'mal_paso' hay dos commits porque el branch mal_paso, recolecta todos los pasos ejecutados al hacer un commit.
+
+7) Es conveniente guardar toda la historia en el branch 'mal_paso' porque permite guardar todos los pasos de forma organizada de forma
+que se pueda detectar la raíz del problema.
+
+11) El comando que hay que ejecutar para cambiar a la rama mal paso es el siguente: git checkout mal_paso, pero antes de pasar a otro branch 
+hay que hacer un commit al otro branch para que no se sobreescriba el contenido el contenido del branch de donde te estás saliendo.
+
+Ejercicio 25)
+
+3) Se ha rechazado el push porque localGit2 no es un repositorio.
+
